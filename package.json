@@ -1,0 +1,16 @@
+{
+  "name": "xueshengci-multiplayer-server",
+  "version": "1.0.0",
+  "description": "Multiplayer server for 学生词 Chinese learning game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
